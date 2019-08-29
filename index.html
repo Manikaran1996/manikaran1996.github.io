@@ -8,16 +8,31 @@
             $("#top-nav-bar").load("navigationBar.html")
         })
     </script>
+    <style>
+      html,body {
+        height: 100%
+      }
+    </style>
 </head>
 
 <body>
+<div class="container-fluid" id="top-nav-bar"></div>
 <div class="container-fluid">
-    <div id="top-nav-bar"></div>
-    Hi, Welcome to my home page
-    <br>
-    <strong>Website is under construction</strong>
+  <div class="row" style="height: 100%">
+    <div class="container col-4" style="background-color:#3F51B5">
+      <img class="rounded-circle mx-auto d-block" src="static/me.jpg" width="120px"
+      style="margin-top:30%"/>
+      <p style="color:#efefef;text-align:center;margin-top:20px">
+        Manikaran Kathuria<br><i>Technologist<br>Alphonso Inc</i>
+      </p>
+    </div>
+    <div class="container-fluid col-8">
+            Hi, Welcome to my home page
+        <br>
+        <strong>Website is under construction</strong>
+    </div>
+  </div>
 </div>
-
 </body>
 
 </html>
