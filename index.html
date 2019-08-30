@@ -1,6 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./custom-style.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
@@ -18,18 +19,20 @@
 <body>
 <div class="container-fluid" id="top-nav-bar"></div>
 <div class="container-fluid">
-  <div class="row" style="height: 100%">
-    <div class="container col-4" style="background-color:#3F51B5">
-      <img class="rounded-circle mx-auto d-block" src="static/me.jpg" width="120px"
-      style="margin-top:30%"/>
-      <p style="color:#efefef;text-align:center;margin-top:20px">
-        Manikaran Kathuria<br><i>Technologist<br>Alphonso Inc</i>
-      </p>
+  <div class="row h-100">
+    <div class="container col-4" style="background: linear-gradient(to right, rgba(72,115,234,1) 0%, rgba(28,73,219,1) 100%);">
+      <div class="center-40v">
+        <img class="rounded-circle d-block" src="static/me.jpg" width="120px"/>
+        <p style="color:#efefef;text-align:center;margin-top:20px">
+          Manikaran Kathuria<br><i>Technologist<br>Alphonso Inc</i>
+        </p>
+      </div>
     </div>
-    <div class="container-fluid col-8">
-            Hi, Welcome to my home page
-        <br>
-        <strong>Website is under construction</strong>
+    <div class="container-fluid col-8" style="background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);">
+        <blockquote class="blockquote center-40v">
+          <p class="mb-0">It’s fine to celebrate success but it is more important to heed the lessons of failure.</p>
+          <footer class="blockquote-footer">Bill Gates, <cite title="Source Title">Co-founder of Microsoft</cite></footer>
+        </blockquote>
     </div>
   </div>
 </div>
